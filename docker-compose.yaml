@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  texnezis_bot:
+    build: .
+    environment:
+      BOT_TOKEN: ${BOT_TOKEN}
+      TZ: Europe/Minsk
+

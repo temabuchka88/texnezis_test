@@ -1,0 +1,6 @@
+aiogram==3.8.0
+sqlalchemy==2.0.31
+pandas==2.2.2
+requests==2.32.3
+beautifulsoup4==4.12.3
+python-dotenv==1.0.1

@@ -57,7 +57,7 @@ def get_price(url):
     return None
 
 @router.message(F.text == "Средняя цена товара")
-async def select_lower_threshold(message: Message, state: FSMContext):
+async def average_price(message: Message, state: FSMContext):
     sites = session.query(Site).all()
 
     prices = []
